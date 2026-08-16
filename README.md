@@ -1,54 +1,48 @@
 # Machine Learning con Python
 
-Esempi ed esercizi pratici del corso **Machine Learning con Python** di [ratataplan.it](https://www.ratataplan.it), la scuola di informatica del Circolo Ratataplan (Riccione, RN).
+Materiali, codice ed esempi pratici della **Lezione #01** del corso [Machine Learning con Python](https://www.ratataplan.it/corso-python-machine-learning.php) di Ratataplan.
 
-Ogni notebook è collegato direttamente alla lezione corrispondente sul sito e può essere aperto ed eseguito in Google Colab con un click, senza bisogno di installare nulla in locale.
+📖 Lezione completa: [python-machine-learning-lezione-01.php](https://www.ratataplan.it/python-machine-learning-lezione-01.php)
 
-📖 **Lezione di riferimento:** [Python Machine Learning — Lezione #01](https://www.ratataplan.it/python-machine-learning-lezione-01.php)
+## Contenuti
 
----
+Il repository raccoglie i notebook Jupyter (`.ipynb`) utilizzati come esempi pratici nella lezione, ciascuno eseguibile direttamente su Google Colab senza bisogno di configurazione locale. Gli argomenti trattati spaziano dalle librerie di base per il data processing (NumPy, pandas, Matplotlib) alle quattro principali tipologie di machine learning: apprendimento supervisionato, non supervisionato, per rinforzo e semi-supervisionato.
 
-## Esercizi
+## Esempi
 
-| # | Notebook | Argomento | Apri |
-|---|----------|-----------|------|
-| 001 | [`001_numpy.ipynb`](001_numpy.ipynb) | Primi passi con NumPy e array — creazione, indicizzazione e operazioni vettoriali | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/001_numpy.ipynb) |
-| 002 | [`002_pandas.ipynb`](002_pandas.ipynb) | Primi passi con pandas e DataFrame — creazione, indicizzazione e operazioni di base | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/002_pandas.ipynb) |
-| 003 | [`003_matplotlib.ipynb`](003_matplotlib.ipynb) | Primi passi con Matplotlib — creazione di grafici e visualizzazione dei dati | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/003_matplotlib.ipynb) |
-| 004 | [`004_linear_regression.ipynb`](004_linear_regression.ipynb) | Apprendimento supervisionato con scikit-learn — prevedi un prezzo da una feature: training, test ed errore MSE | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/004_linear_regression.ipynb) |
-| 005 | [`005_libraries.ipynb`](005_libraries.ipynb) | Librerie essenziali per il machine learning — NumPy, pandas, Matplotlib e scikit-learn | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/005_libraries.ipynb) |
-| 006 | [`006_linear_regression.ipynb`](006_linear_regression.ipynb) | Apprendimento supervisionato con scikit-learn — flusso completo di regressione, con previsione su un dato nuovo | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/006_linear_regression.ipynb) |
-| 007 | [`007_linear_regression.ipynb`](007_linear_regression.ipynb) | Apprendimento supervisionato con scikit-learn, un caso reale — prevedi un prezzo da una feature: training, test ed errore MSE | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/007_linear_regression.ipynb) |
+| # | Notebook | Argomento | Descrizione |
+|---|----------|-----------|-------------|
+| 001 | [001_numpy.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/001_numpy.ipynb) | NumPy | Primi passi con NumPy e array: creazione, indicizzazione e operazioni vettoriali di base. |
+| 002 | [002_pandas.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/002_pandas.ipynb) | pandas | Primi passi con pandas e DataFrame: creazione, indicizzazione e operazioni di base. |
+| 003 | [003_matplotlib.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/003_matplotlib.ipynb) | Matplotlib | Primi passi con Matplotlib e visualizzazione dei dati: creazione di grafici per analizzare i dati. |
+| 004 | [004_linear_regression.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/004_linear_regression.ipynb) | Apprendimento supervisionato | Introduzione alla regressione lineare con scikit-learn: training, test e calcolo dell'errore MSE. |
+| 005 | [005_libraries.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/005_libraries.ipynb) | Librerie essenziali | Verifica della configurazione dell'ambiente con NumPy, pandas, Matplotlib e scikit-learn. |
+| 006 | [006_linear_regression.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/006_linear_regression.ipynb) | Apprendimento supervisionato | Regressione lineare: flusso completo con visualizzazione dello split, dei parametri appresi e previsione su un dato nuovo. |
+| 007 | [007_linear_regression.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/007_linear_regression.ipynb) | Apprendimento supervisionato | Caso reale: previsione del prezzo di affitto di un locale commerciale a partire dai metri quadri. |
+| 008 | [008_kmeans.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/008_kmeans.ipynb) | Apprendimento non supervisionato | Clustering K-Means: raggruppamento di dati simili senza etichette su un dataset di esempio. |
+| 009 | [009_kmeans.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/009_kmeans.ipynb) | Apprendimento non supervisionato | Caso reale: segmentazione automatica dei clienti in 3 gruppi con K-Means. |
+| 010 | [010_rl.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/010_rl.ipynb) | Apprendimento per rinforzo | Il problema del bandito a più braccia (multi-armed bandit): esplorazione/sfruttamento e aggiornamento incrementale della stima. |
+| 011 | [011_semi_supervised.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/011_semi_supervised.ipynb) | Apprendimento semi-supervisionato | Propagazione delle etichette con `LabelPropagation` su un piccolo dataset sintetico. |
+| 012 | [012_semi_supervised.ipynb](https://colab.research.google.com/github/ratataplan/machine-learning/blob/main/012_semi_supervised.ipynb) | Apprendimento semi-supervisionato | Caso reale: `LabelSpreading` applicato al riconoscimento di cifre scritte a mano (dataset `digits`). |
 
----
+## Come utilizzare i notebook
 
-## Come usare i notebook
+Ogni notebook è pensato per essere eseguito direttamente su **Google Colab**, senza bisogno di installare nulla in locale:
 
-### Opzione 1 — Google Colab (consigliata, zero installazione)
-Clicca sul badge **"Open in Colab"** nella tabella sopra. Il notebook si apre già pronto all'uso nel browser. Per salvare le tue modifiche: **File → Save a copy in Drive**.
+1. Clicca sul link del notebook desiderato nella tabella qui sopra.
+2. Colab si aprirà automaticamente caricando il codice dal repository.
+3. Esegui le celle in ordine (`Shift + Invio`) per seguire passo passo la spiegazione.
 
-### Opzione 2 — In locale con VS Code
+In alternativa, è possibile clonare il repository ed eseguire i notebook in locale:
+
 ```bash
-# Clona il repository
 git clone https://github.com/ratataplan/machine-learning.git
 cd machine-learning
-
-# Crea e attiva un ambiente virtuale
 python -m venv .venv
-source .venv/bin/activate      # macOS/Linux
-.venv\Scripts\activate         # Windows
-
-# Installa le dipendenze
-pip install numpy pandas matplotlib scikit-learn jupyter
-```
-
-Apri la cartella in VS Code e avvia i notebook con l'estensione Jupyter, oppure lancia Jupyter da terminale:
-
-```bash
+source .venv/bin/activate  # su Windows: .venv\Scripts\activate
+python -m pip install numpy pandas scikit-learn matplotlib jupyter
 jupyter notebook
 ```
-
----
 
 ## Librerie utilizzate
 
@@ -57,20 +51,12 @@ jupyter notebook
 - [Matplotlib](https://matplotlib.org/) — visualizzazione dei dati
 - [scikit-learn](https://scikit-learn.org/) — algoritmi di machine learning
 
----
+## Requisiti
 
-## Corso completo
+- Python 3.10 o versioni successive
 
-Questi esempi accompagnano il corso in aula **Machine Learning con Python**, che copre le basi del ML, Python per la data science, algoritmi supervisionati e non supervisionati, deep learning, NLP e deployment.
+## Licenza e crediti
 
-👉 [Scopri il corso su ratataplan.it](https://www.ratataplan.it/corso-python-machine-learning.php)
+Materiale didattico a cura di [Carlo Mainardi](https://www.linkedin.com/in/carlomainardi) per [Ratataplan](https://www.ratataplan.it/) — Associazione di cultura informatica.
 
----
-
-## Autore
-
-**Carlo Mainardi** — [carlomainardi.com](https://www.carlomainardi.com) · [LinkedIn](https://www.linkedin.com/in/carlomainardi)
-
-## Licenza
-
-Materiale didattico distribuito a scopo formativo. Per usi diversi dalla didattica personale, contatta l'autore.
+© 2005–2026 Ratataplan. Tutti i diritti riservati.
